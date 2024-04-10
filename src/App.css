@@ -1,0 +1,42 @@
+body {
+  background-color: #0d0714 !important;
+}
+
+input {
+  width: 100%;
+}
+
+.kg-button {
+  min-width: 80px;
+}
+
+.kg-row {
+  margin: 10px 5px;
+}
+
+.todo-container {
+  width: 60vw;
+  margin: auto;
+}
+
+h5 {
+  text-align: left;
+  color: #dadada !important;
+}
+
+.alignment-container {
+  margin: 50px 0;
+  width: 95%;
+}
+
+@media only screen and (max-width: 768px) {
+  .todo-container {
+    width: 100vw;
+  }
+  h5 {
+    font-size: 17px !important;
+  }
+  .alignment-container {
+    margin: 40px 0;
+  }
+}

@@ -1,0 +1,14 @@
+.todoHeading {
+  font-weight: 700;
+  font-size: 45px;
+  margin: 50px;
+  color: #dadada;
+}
+
+@media only screen and (max-width: 768px) {
+  .todoHeading {
+    font-weight: 600;
+    font-size: 35px;
+    margin: 30px;
+  }
+}

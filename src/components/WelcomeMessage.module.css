@@ -1,0 +1,12 @@
+.welcome {
+  font-size: 40px;
+  margin-top: 35%;
+  font-weight: 600;
+  color: #686464;
+}
+
+@media only screen and (max-width: 768px) {
+  .welcome {
+    font-size: 30px;
+  }
+}
